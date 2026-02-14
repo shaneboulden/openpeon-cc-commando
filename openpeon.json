@@ -14,20 +14,22 @@
     "session.start": {
       "sounds": [
         { "file": "sounds/yo.mp3", "label": "Yo" },
-	{ "file": "sounds/yeah.mp3", "label":"Yeah?" },
-	{ "file": "sounds/yeah-sir.mp3", "label": "Yeah sir?"}
+        { "file": "sounds/yeah.mp3", "label":"Yeah?" },
+        { "file": "sounds/yeah-sir.mp3", "label": "Yeah sir?"}
       ]
     },
     "task.acknowledge" : {
-	{ "file": "sounds/on-it.mp3", "label": "I'm on it" },
-	{ "file": "sounds/you-got-it.mp3", "label": "You got it"},
+       "sounds": [
+        { "file": "sounds/on-it.mp3", "label": "I'm on it" },
+        { "file": "sounds/you-got-it.mp3", "label": "You got it"},
         { "file": "sounds/present-for-ya.mp3", "label": "I've got a present for ya!" }
+      ]
     },
     "task.complete": {
       "sounds": [
-	{ "file": "sounds/left-handed.mp3", "label": "That was left handed" },
-	{ "file": "sounds/keep-em-comin.mp3", "label": "Keep em comin" },
-	{ "file": "sounds/laugh.mp3", "label": "Ha ha ha" }
+        { "file": "sounds/left-handed.mp3", "label": "That was left handed" },
+        { "file": "sounds/keep-em-comin.mp3", "label": "Keep em comin" },
+        { "file": "sounds/laugh.mp3", "label": "Ha ha ha" }
       ]
     },
     "task.error": {
@@ -38,12 +40,12 @@
     "input.required": {
       "sounds": [
         { "file": "sounds/come-on.mp3", "label": "Come on!" },
-	{ "file": "sounds/rock-and-roll.mp3", "label": "Time to rock and roll" }
+	      { "file": "sounds/rock-and-roll.mp3", "label": "Time to rock and roll" }
       ]
     },
     "user.spam": {
       "sounds": [
-	{ "file": "sounds/tough-guy.mp3", "label": "Real tough guy" }
+	      { "file": "sounds/tough-guy.mp3", "label": "Real tough guy" }
       ]
     }
   }
